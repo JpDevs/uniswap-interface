@@ -82,12 +82,12 @@
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
   },
   "scripts": {
-    "start": "export PORT=8080 react-scripts start",
+    "start": "export PORT=80 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "integration-test": "start-server-and-test 'serve build -l 8080' http://localhost:8080 'cypress run'"
+    "integration-test": "start-server-and-test 'serve build -l 80' http://localhost:80 'cypress run'"
   },
   "eslintConfig": {
     "extends": "react-app"
